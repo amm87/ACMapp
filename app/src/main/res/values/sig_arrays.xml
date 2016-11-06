@@ -2,12 +2,13 @@
 <resources>
 
         <string-array name="sigs">
-            <item>Sig Crypto</item>
-            <item>Sig Android</item>
-            <item>Sig AI</item>
-            <item>Sig Linux</item>
-            <item>Sig Alg</item>
-            <item>Sig Sound</item>
+            <item>Sig Crypto \n Leader: Jesse Breuer, jab59@njit.edu</item>
+            <item>Sig Android \n Leader: Anthony Morales, amm87@njit.edu</item>
+            <item>Sig AI \n Leader: Jeffrey Ramirez, jrr28@njit.edu</item>
+            <item>Sig Linux \n Leader: Daniel Barron, db329@njit.edu</item>
+            <item>Sig Web \n Leader: Daniel Barron, db329@njit.edu</item>
+            <item>Sig Alg \n Leader: Eduardo Preciado, ejp9@njit.edu</item>
+            <item>Sig Sound \n Leader: Zakie Hinds, zh74@njit.edu</item>
 
         </string-array>
 
