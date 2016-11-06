@@ -43,7 +43,13 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        navigationView.getMenu().getItem(0).setChecked(true);
+        //navigationView.getMenu().getItem(0).setChecked(true);
+
+        FragmentManager manager = getSupportFragmentManager();
+        FragmentTransaction t;
+        t= manager.beginTransaction();
+        t.replace(R.id.content_frame , new MainPage());
+        t.commit();
     }
 
     @Override
