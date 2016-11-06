@@ -1,10 +1,11 @@
 package com.acm.njit.acm_tutoring;
 
-import android.app.FragmentManager;
+import android.support.v4.app.FragmentManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -81,11 +82,48 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
 
-        FragmentManager manager = getFragmentManager();
+        FragmentManager manager = getSupportFragmentManager();
         int id = item.getItemId();
+        boolean changed = false;
+        FragmentTransaction t=null;
 
+        switch (id)
+        {
+            case R.id.nav_first_layout:
+                t = manager.beginTransaction();
+                t.replace(R.id.content_frame , new MainPage());
+                changed = true;
+                break;
+            case R.id.nav_second_layout:
+                t = manager.beginTransaction();
+                t.replace(R.id.content_frame , new Sigs());
+                changed = true;
+                break;
+            case R.id.nav_third_layout:
+                t = manager.beginTransaction();
+                t.replace(R.id.content_frame , new Tutoring());
+                changed = true;
+                break;
+            case R.id.nav_fourth_layout:
+                t = manager.beginTransaction();
+                t.replace(R.id.content_frame , new SocialMedia());
+                changed = true;
+                break;
+            case R.id.nav_send:
+                String[] email = new String[1];
+                email[0]= "njitacm@gmail.com";
+                composeEmail(email);
+                break;
+        }
 
-        if (id == R.id.nav_first_layout) {
+        if (changed && t != null){
+            t.addToBackStack(null);
+            t.commit();
+        }
+
+        manager.beginTransaction().commit();
+
+        /*if (id == R.id.nav_first_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new MainPage()).commit();
         } else if (id == R.id.nav_second_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new Sigs()).commit();
@@ -98,7 +136,7 @@ public class MainActivity extends AppCompatActivity
             String[] email = new String[1];
             email[0]= "njitacm@gmail.com";
             composeEmail(email);
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
