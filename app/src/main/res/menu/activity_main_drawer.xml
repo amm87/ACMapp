@@ -4,9 +4,9 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_first_layout"
-            android:icon="@drawable/njit_acm_logo"
+            android:icon="@drawable/ic_menu_camera"
             android:title="Tutoring" />
-        <item
+        <item2
             android:id="@+id/nav_second_layout"
             android:icon="@drawable/ic_menu_gallery"
             android:title="SIGS" />
