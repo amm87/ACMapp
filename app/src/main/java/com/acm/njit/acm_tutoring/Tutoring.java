@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 /**
  * Created by Jesse on 11/5/2016.
- * Corresponds to tutoring_layout.xmlxml
+ * Corresponds to tutoring_layout.xml
  */
 
 public class Tutoring extends Fragment {

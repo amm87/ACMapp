@@ -8,19 +8,20 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Jesse on 11/5/2016.
- * Corresponds to sigs_layout.xml
+ * Created by Jesse on 11/6/2016.
+ * Corresponds to social_media_layout.xmlout.xml
  */
 
-public class Sigs extends Fragment {
+public class SocialMedia extends Fragment {
 
     View viewer;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        viewer = inflater.inflate(R.layout.sigs_layout, container, false);
+        viewer = inflater.inflate(R.layout.social_media_layout, container, false);
         return viewer;
-
     }
+
+
 }

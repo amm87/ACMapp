@@ -90,7 +90,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_second_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new Sigs()).commit();
         } else if (id == R.id.nav_third_layout) {
-            manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();
+            manager.beginTransaction().replace(R.id.content_frame, new Tutoring()).commit();
+        } else if (id == R.id.nav_fourth_layout) {
+            manager.beginTransaction().replace(R.id.content_frame, new SocialMedia()).commit();
 
         } else if (id == R.id.nav_send) {
             String[] email = new String[1];

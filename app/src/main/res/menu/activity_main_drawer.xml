@@ -14,6 +14,10 @@
             android:id="@+id/nav_third_layout"
             android:icon="@drawable/computer_logo"
             android:title="Tutoring" />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/social_media_icon"
+            android:title="Social Medias" />
     </group>
 
     <item android:title="Contact us">
