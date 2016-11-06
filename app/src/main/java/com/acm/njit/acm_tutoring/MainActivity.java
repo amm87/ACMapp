@@ -42,8 +42,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        WebView myWebView = (WebView) findViewById(R.id.web_view);
-        myWebView.loadUrl("http://njit.acm.org");
 
     }
 
@@ -87,6 +85,9 @@ public class MainActivity extends AppCompatActivity
         FragmentManager manager = getFragmentManager();
         int id = item.getItemId();
 
+        /*WebView myWebView = (WebView) findViewById(R.id.web_view);
+        myWebView.loadUrl("http://njit.acm.org");*/
+
         if (id == R.id.nav_first_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();
         } else if (id == R.id.nav_second_layout) {
@@ -102,4 +103,5 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }
