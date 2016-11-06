@@ -84,9 +84,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_first_layout) {
-            manager.beginTransaction().replace(R.id.content_frame , new FirstFragment()).commit();
+            manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();
         } else if (id == R.id.nav_second_layout) {
-            manager.beginTransaction().replace(R.id.content_frame , new SecondFragment()).commit();
+            manager.beginTransaction().replace(R.id.content_frame , new Sigs()).commit();
         } else if (id == R.id.nav_third_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new ThirdFragment()).commit();
         } else if (id == R.id.nav_share) {
