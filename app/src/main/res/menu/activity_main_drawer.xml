@@ -5,7 +5,7 @@
         <item
             android:id="@+id/nav_first_layout"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Tutoring" />
+            android:title="Main Page" />
         <item
             android:id="@+id/nav_second_layout"
             android:icon="@drawable/ic_menu_gallery"
@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_third_layout"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="activity_main" />
+            android:title="Tutoring" />
     </group>
 
     <item android:title="Contact us">
@@ -21,7 +21,7 @@
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Contact Us" />
 
         </menu>
     </item>

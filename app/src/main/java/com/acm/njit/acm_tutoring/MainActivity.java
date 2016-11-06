@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.nav_first_layout) {
-            manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();
+            manager.beginTransaction().replace(R.id.content_frame , new MainPage()).commit();
         } else if (id == R.id.nav_second_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new Sigs()).commit();
         } else if (id == R.id.nav_third_layout) {
