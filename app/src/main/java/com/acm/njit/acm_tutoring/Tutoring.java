@@ -12,14 +12,14 @@ import android.view.ViewGroup;
  * Corresponds to tutoring_layout.xmlxml
  */
 
-public class ThirdFragment extends Fragment {
+public class Tutoring extends Fragment {
 
     View viewer;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        viewer = inflater.inflate(R.layout.third_layout, container, false);
+        viewer = inflater.inflate(R.layout.tutoring_layout, container, false);
         return viewer;
 
     }
