@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="sigs">
+            <item>Sig Crypto</item>
+            <item>Sig Android</item>
+            <item>Sig AI</item>
+            <item>Sig Linux</item>
+            <item>Sig Alg</item>
+            <item>Sig Sound</item>
+
+        </string-array>
+
+</resources>

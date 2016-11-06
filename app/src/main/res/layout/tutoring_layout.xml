@@ -6,10 +6,11 @@
     android:layout_height="wrap_content">
 
     <fragment class="com.acm.njit.acm_tutoring.Tutoring"
-                android:layout_height="match_parent"
-                android:layout_width="match_parent"
-                android:id="@+id/the_frag"
-                />
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/the_frag"
+        />
+
 </LinearLayout>
 
 
