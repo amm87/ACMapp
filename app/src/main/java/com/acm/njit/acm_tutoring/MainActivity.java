@@ -2,9 +2,6 @@ package com.acm.njit.acm_tutoring;
 
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -92,7 +88,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_second_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new Sigs()).commit();
         } else if (id == R.id.nav_third_layout) {
-            manager.beginTransaction().replace(R.id.content_frame , new ThirdFragment()).commit();
+            manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();
 
         } else if (id == R.id.nav_send) {
 
