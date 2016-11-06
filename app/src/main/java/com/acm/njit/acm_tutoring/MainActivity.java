@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -111,16 +112,20 @@ public class MainActivity extends AppCompatActivity
                 t.replace(R.id.content_frame , new Tutoring());
                 changed = true;
                 break;
-            case R.id.nav_fourth_layout:
+            case R.id.nav_send:
                 t = manager.beginTransaction();
-                t.replace(R.id.content_frame , new SocialMedia());
+                t.replace(R.id.content_frame , new ContactUs());
                 changed = true;
                 break;
-            case R.id.nav_send:
-                String[] email = new String[1];
+           /* case R.id.nav_send:
+                /*String[] email = new String[1];
                 email[0]= "njitacm@gmail.com";
                 composeEmail(email);
-                break;
+                t = manager.beginTransaction();
+                t.replace(R.id.content_frame , new ContactUs());
+                changed = true;
+                break; */
+
         }
 
         if (changed && t != null){
@@ -156,7 +161,52 @@ public class MainActivity extends AppCompatActivity
         intent.putExtra(Intent.EXTRA_EMAIL, addresses);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
+
         }
+
+
+    }
+
+    public void onClickEmail(View v) {
+        // Perform action on click
+        String[] email = new String[1];
+        email[0]= "njitacm@gmail.com";
+        composeEmail(email);
+    }
+
+    public void onClickTwitter(View view) {
+        // Perform action on click
+        String url = "https://twitter.com/njitacm";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void onClickFacebook(View view){
+        String url ="https://www.facebook.com/groups/njtacm/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void onClickInstagram(View view) {
+        // Perform action on click
+        String url = "https://www.instagram.com/njitacm/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void onClickSlack(View view) {
+        // Perform action on click
+        String url = "https://njit-acm.slack.com/signup";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void onClickLinkedIn(View view) {
+        // Perform action on click
+        String url = "https://www.linkedin.com/groups/4314318";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
     }
 
 }
