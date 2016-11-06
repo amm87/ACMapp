@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ListFragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,35 +21,16 @@ import java.util.Arrays;
  * Corresponds to tutoring_layout.xml
  */
 
-public class Tutoring extends Activity {
-
-    //View viewer;
-    private ListView mainList;
-    //private Adapter mainAdapter;
-    private ArrayAdapter<String> listAdapter;
-
+public class Tutoring extends ListFragment {
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.tutoring_layout); //TODO ????
+    public void onActivityCreated(Bundle savedInstanceState) {
 
-        //Find ListView resource
-        mainList = (ListView) findViewById(R.id.mainList);
+        super.onActivityCreated(savedInstanceState);
+        String[] tutors = getResources().getStringArray(R.array.tutors);
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,tutors);
 
-        //Create and populate a list of tutor names
-        String[] names = new String[] {"Alec Brion"};
+        setListAdapter(dataAdapter);
 
-        ArrayList<String> tutorList = new ArrayList<String>();
-        tutorList.addAll( Arrays.asList(names));
-
-        //Create ArrayAdapter using tutorList
-        listAdapter = new ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_list_item_1,
-                tutorList
-        );
-
-        mainList.setAdapter(listAdapter);
 
     }
 
