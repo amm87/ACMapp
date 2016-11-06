@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
+        navigationView.getMenu().getItem(0).setChecked(true);
     }
 
     @Override
@@ -85,8 +86,6 @@ public class MainActivity extends AppCompatActivity
         FragmentManager manager = getFragmentManager();
         int id = item.getItemId();
 
-        /*WebView myWebView = (WebView) findViewById(R.id.web_view);
-        myWebView.loadUrl("http://njit.acm.org");*/
 
         if (id == R.id.nav_first_layout) {
             manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();

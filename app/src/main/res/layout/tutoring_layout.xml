@@ -10,4 +10,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="104dp"
         android:id="@+id/textView2" />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web_view" />
 </RelativeLayout>
