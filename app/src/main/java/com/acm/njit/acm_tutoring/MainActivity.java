@@ -1,6 +1,8 @@
 package com.acm.njit.acm_tutoring;
 
 import android.app.FragmentManager;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -91,12 +93,23 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction().replace(R.id.content_frame , new Tutoring()).commit();
 
         } else if (id == R.id.nav_send) {
-
+            String[] email = new String[1];
+            email[0]= "njitacm@gmail.com";
+            composeEmail(email);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void composeEmail(String[] addresses) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_EMAIL, addresses);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
 }
