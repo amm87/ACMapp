@@ -24,7 +24,7 @@ import java.util.Arrays;
 public class Tutoring extends ListFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
-
+        //gets tutors from a resource file and displays them on the screen in a list fragment
         super.onActivityCreated(savedInstanceState);
         String[] tutors = getResources().getStringArray(R.array.tutors);
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,tutors);

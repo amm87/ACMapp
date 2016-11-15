@@ -21,7 +21,7 @@ public class MainPage extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         viewer = inflater.inflate(R.layout.mainpage_layout, container, false);
-
+        //opens web page and displays them to the screen.
         WebView myWebView = (WebView) viewer.findViewById(R.id.web_view);
         myWebView.loadUrl("http://njit.acm.org");
         return viewer;

@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity
         boolean changed = false;
         FragmentTransaction t=null;
 
+        //when a tab is clicked in the menu it will display one of the following after.
         switch (id)
         {
             case R.id.nav_first_layout:
@@ -155,7 +156,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
+    //WHen the email us button is clicked it opens up the default mail app and sets the to field to the acm email.
     public void composeEmail(String[] addresses) {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this
@@ -167,7 +168,7 @@ public class MainActivity extends AppCompatActivity
 
 
     }
-
+    //Handles the button click for emails and etc
     public void onClickEmail(View v) {
         // Perform action on click
         String[] email = new String[1];
