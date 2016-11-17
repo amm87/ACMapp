@@ -1,6 +1,8 @@
 package com.acm.njit.acm_tutoring;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -33,6 +35,20 @@ public class Sigs extends ListFragment {
 
 
     }
+    public void onListItemClick(ListView l, View v, int pos, long id) {
+        super.onListItemClick(l, v, pos, id);
+        String[] sigs = getResources().getStringArray(R.array.sigs);
+        String selectedEmail = sigs[pos].substring(sigs[pos].lastIndexOf(" "));
 
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{selectedEmail});
+        emailIntent.putExtra(Intent.EXTRA_CC, new String[]{""});
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, new String[]{""});
+        emailIntent.putExtra(Intent.EXTRA_TEXT, new String[]{""});
+        emailIntent.setType("plain/text");
+        startActivity(Intent.createChooser(emailIntent, "Choose Email App"));
+    }
 
 }
