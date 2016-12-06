@@ -26,17 +26,4 @@ public class ContactUs extends Fragment {
     }
 
 
-    public void onClickTwitter(View view) {
-        // Perform action on click
-    }
-    public void onClickInstagram(View view) {
-        // Perform action on click
-    }
-    public void onClickSlack(View view) {
-        // Perform action on click
-    }
-    public void onClickLinkedIn(View view) {
-        // Perform action on click
-    }
-
 }
