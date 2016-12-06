@@ -156,8 +156,9 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    //OLD email code
     //WHen the email us button is clicked it opens up the default mail app and sets the to field to the acm email.
-    public void composeEmail(String[] addresses) {
+    /*public void composeEmail(String[] addresses) {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_EMAIL, addresses);
@@ -165,15 +166,16 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         }
+    }*/
 
-
-    }
     //Handles the button click for emails and etc
     public void onClickEmail(View v) {
-        // Perform action on click
-        String[] email = new String[1];
-        email[0]= "njitacm@gmail.com";
-        composeEmail(email);
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        String email = "njitacm@gmail.com";
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
+        emailIntent.setType("plain/text");
+        startActivity(Intent.createChooser(emailIntent, "Choose Email App"));
     }
 
     public void onClickTwitter(View view) {
