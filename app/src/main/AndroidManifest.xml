@@ -20,7 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TutorSchedule"></activity>
+        <activity android:name=".TutorSchedule" />
+        <activity android:name=".TutorProfile"></activity>
     </application>
 
 </manifest>
