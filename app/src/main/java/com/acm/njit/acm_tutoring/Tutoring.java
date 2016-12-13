@@ -32,33 +32,45 @@ public class Tutoring extends ListFragment {
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
+
         //gets tutors from a resource file and displays them on the screen in a list fragment
         super.onActivityCreated(savedInstanceState);
 
-        String[] tutorsData = getResources().getStringArray(R.array.tutors);
+        //Instantiates Network config class with url and context, then calls volleyService
+        NetworkConfig nc = new NetworkConfig("https://acmapp.000webhostapp.com/getData.php", getActivity());
+        nc.volleyService(new VolleyCallback(){
+            public void onSuccess(String[] result)
+            {
+               //Splits elements of the result array, creates new tutor objects and adds them
+                //to the tutors array.
+                Tutor[] tutors = new Tutor[result.length];
+                for(int i = 0; i < result.length; i++){
+                    result[i] = result[i].replace(" \n","").replace(" -", "");
+                    String[] tutor = result[i].split(" ");
+                    String name = tutor[0] + " " + tutor[1];
+                    int dayWorked = dayToNum(tutor[2]);
+                    String hoursWorked = tutor[3] + " " + tutor[4];
+                    tutors[i] = new Tutor(name, dayWorked, hoursWorked);
+                }
 
-        tutors = new Tutor[tutorsData.length];
-        for(int i = 0; i < tutorsData.length; i++){
-            tutorsData[i] = tutorsData[i].replace(" \n","").replace(" -", "");
-            String[] tutor = tutorsData[i].split(" ");
-            String name = tutor[0] + " " + tutor[1];
-            int dayWorked = dayToNum(tutor[2]);
-            String hoursWorked = tutor[3] + " " + tutor[4];
-            tutors[i] = new Tutor(name, dayWorked, hoursWorked);
-        }
 
-        ArrayList<String> currentTutors = new ArrayList<>();
-        currentTutors.add("Tutors Currently Active:");
-        for(int i = 0; i < tutors.length; i++){
-            if(isCurrentlyOn(tutors[i])){
-                currentTutors.add("\t\t" + "-" + tutors[i].getName());
+                //Checks for currently active tutors and adds them to the currentTutorsArray.
+                ArrayList<String> currentTutors = new ArrayList<>();
+                currentTutors.add("Tutors Currently Active:");
+                for(int i = 0; i < tutors.length; i++){
+                    if(isCurrentlyOn(tutors[i])){
+                        currentTutors.add("\t\t" + "-" + tutors[i].getName());
+                    }
+                }
+                String[] currentTutorsArray = new String[currentTutors.size()];
+                currentTutors.toArray(currentTutorsArray);
+
+
+                ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,currentTutorsArray);
+                setListAdapter(dataAdapter);
+
             }
-        }
-        String[] currentTutorsArray = new String[currentTutors.size()];
-        currentTutors.toArray(currentTutorsArray);
-
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,currentTutorsArray);
-        setListAdapter(dataAdapter);
+        });
 
     }
 
