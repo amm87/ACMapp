@@ -3,75 +3,75 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_721eebfc33affae2c88b0a55d8da7578abf8d4d6\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ca457b13c54bb85da8d19f7dedcecd5d9331fec8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bfd5ec64a49d7125ddaf6adbd88b241f2d2a9076\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_54c9ff1019f0df481c2ab8441ec119252d9e7bd4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_d1a6e6855c44e8873dc8b43527a28d8fbfb8d5c5\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_4f655e07a86a342295cb1a35652993c702dd2a35\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="223ba020318804ac96a5e49b483e8e4046bbb809">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cf32d41df3141658300cbaed7cbf59848f8c8377\classes.dex" />
+        sha1="ccc1954632041908f6c6b9696108a848a77d16c3">
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4b4f030c3aa6065b71984ad688926523930ec2c2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_31ab006c8477ec70bcb52e99258ed663fd71f628\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_4a64dbc459efb4321848bde09866daa7909d41c1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_70decc9ba1b58337b934d04f2bed65fb4369f4ce\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_9635fb93d9ffcefa4ded843c3c1080c17c02d98a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6775e9f694dca17a990c03e9db8d9d371648465b\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9a93dfd4b6f93d9f21681ec7ce6a808300dad879\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_7fc47f7e1bcce05859ea2182fe77aa1f04332085\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_e8ebb78eeca5d2633fb076a00131242b7fa4cde5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,97 +80,97 @@
         optimize="true"
         revision="25.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_251acc2e73be50a2b5c8a7decc5d942f7e759a20\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_251acc2e73be50a2b5c8a7decc5d942f7e759a20\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_23db9aa79b70168ac125372b037d301f50321a4f\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_531fd1245e531331b449895bf48faf945da42584\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_eff7c0b18b8c1d63c969d6d779e5e287fecbaf7a\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_9b824bf28dbb33c1cb412a76a354e302f491c849\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_6389e96e81dff4c0162aabe3516825f68ddb09eb\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_3979a87121f49f619c4e51e2768928dfbed0696b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2adacc1e6bd3a8280d357fc08b9b60065601b022\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7ca4bc8f293a6b3586c9aca09dda7aa6a3851e65\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_46958a8dddada9e1a8f66f564d9650c3340b8b2a\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_502d59fec4ae696f912e274da96034b86b61cc07\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_e4900eb4e9d375546fe0defe3adffe7f2b2e8f31\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c2df0d7d8acc1bd77e54b81acdced4fba6cc8962\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c1e29ae5fb13c585973a93361ed755cb1b8db857\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a566e5281d8b8340a87d4691c76f5f2fc147333c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_6f8f4dbc41460431fcf93cda7fe683f143da9593\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8e3580b1a7af1e3dc1088e6aa1b13816b477876c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_2d7fe05ecd8557916953d64cf47a88c73c7919a7\classes.dex" />
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_b01d2aeeffafa6fe92af2332879e86a21427c07d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b2cfbd0a9dd2374c555a328dfa588725a2fe2eb9">
-        <dex dex="C:\Users\caton\Documents\GitHub\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7f822ae3b68aefa15d1dc00bd7194d5d62353c3e\classes.dex" />
+        sha1="95568f22e5758013d96f309bfc45ca92c48b6923">
+        <dex dex="C:\Users\caton\Documents\Github\ACMapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ed4f2187c52b8bf5b9228a3e210e43f0e3f7aede\classes.dex" />
     </item>
 
 </items>
